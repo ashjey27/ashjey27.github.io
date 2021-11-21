@@ -106,6 +106,11 @@ a:not(.btn--remix):visited {
 .divider {
   padding: 0 1rem;
 }
+
+.a {
+  size : 50%;
+  max-width = 40%;
+}
 /******************************************************************************
 END Glitch hello-app default styles
 ******************************************************************************/
@@ -142,15 +147,15 @@ body {
 
 /* Very light scaling for our illustration */
 .illustration {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
   max-height: var(--image-max-width);
   margin-top: var(--image-margin);
 }
 
 /* Instructions */
-.instructions {
-  margin: 1rem auto 0;
-}
+
 
 /* Button - Add it from the README instructions */
 button,
